@@ -180,7 +180,7 @@ void handleRoot() {
   <div class="max-w-md mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden">
     <!-- Header -->
     <div class="bg-gradient-to-r from-purple-600 to-blue-600 p-6 text-white text-center">
-      <h1 class="text-2xl font-bold mb-2">🤖 Control de Motores</h1>
+      <h1 class="text-2xl font-bold mb-2"> Control de Motores</h1>
       <div class="flex items-center justify-center space-x-2">
         <div class="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
         <span class="text-sm">ESP32 Conectado</span>
@@ -190,7 +190,7 @@ void handleRoot() {
     <div class="p-6 space-y-6">
       <!-- Control Joystick Derecha/Izquierda -->
       <div class="bg-gray-50 rounded-2xl p-4">
-        <h3 class="text-lg font-semibold text-center mb-4 text-gray-700">↔️ Derecha / Izquierda</h3>
+        <h3 class="text-lg font-semibold text-center mb-4 text-gray-700"> Derecha / Izquierda</h3>
         <div class="joystick-container mx-auto" id="joystick-horizontal">
           <div class="joystick-knob" id="knob-horizontal"></div>
         </div>
@@ -201,7 +201,7 @@ void handleRoot() {
 
       <!-- Control Joystick Adelante/Atrás -->
       <div class="bg-gray-50 rounded-2xl p-4">
-        <h3 class="text-lg font-semibold text-center mb-4 text-gray-700">↕️ Adelante / Atrás</h3>
+        <h3 class="text-lg font-semibold text-center mb-4 text-gray-700">Adelante / Atrás</h3>
         <div class="joystick-container mx-auto" id="joystick-vertical">
           <div class="joystick-knob" id="knob-vertical"></div>
         </div>
@@ -212,16 +212,16 @@ void handleRoot() {
 
       <!-- Controles Rápidos -->
       <div class="bg-gray-50 rounded-2xl p-4">
-        <h3 class="text-lg font-semibold text-center mb-4 text-gray-700">⚡ Controles Rápidos</h3>
+        <h3 class="text-lg font-semibold text-center mb-4 text-gray-700"> Controles Rápidos</h3>
         <div class="grid grid-cols-2 gap-3">
-          <button onclick="emergencyStop()" class="motor-button bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-4 rounded-xl">🛑 STOP</button>
-          <button onclick="testMotors()" class="motor-button bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-xl">🔧 Test</button>
+          <button onclick="emergencyStop()" class="motor-button bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-4 rounded-xl"> STOP</button>
+          <button onclick="testMotors()" class="motor-button bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-xl"> Test</button>
         </div>
       </div>
 
       <!-- Estado de Motores -->
       <div class="bg-gray-50 rounded-2xl p-4">
-        <h3 class="text-lg font-semibold text-center mb-4 text-gray-700">📊 Estado Actual</h3>
+        <h3 class="text-lg font-semibold text-center mb-4 text-gray-700"> Estado Actual</h3>
         <div class="space-y-2 text-sm">
           <div class="flex justify-between">
             <span>Motor Derecha:</span>
@@ -438,5 +438,6 @@ void loop() {
   server.handleClient();
   delay(10);
 }
+
 
 
