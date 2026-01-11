@@ -1,5 +1,5 @@
 #include "esp_camera.h"
-#include <WiFi.h>
+#include <WiFi.h:>
 
 
 #include "board_config.h"
